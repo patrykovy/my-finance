@@ -1,54 +1,27 @@
 {
-  "name": "scrum-majster",
+  "name": "my-finance-2",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@fontsource/roboto": "^5.2.5",
-    "@mui/icons-material": "^6.4.7",
-    "@mui/material": "^6.4.7",
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
-    "styled-components": "^6.1.15",
-    "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview"
   },
-  "resolutions": {
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+  "dependencies": {
+    "react": "^19",
+    "react-dom": "^19",
+    "@toolpad/core": "0.13.0",
+    "@mui/material": "^6",
+    "@mui/material-nextjs": "^6",
+    "@mui/icons-material": "^6",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "react-router": "^7"
   },
   "devDependencies": {
-    "prettier": "^3.4.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "typescript": "^5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^5.4.8"
   }
 }
